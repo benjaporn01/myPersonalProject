@@ -1,0 +1,13 @@
+div {
+    font-size: 1.5em;
+    line-height: 30px;
+    margin: 0px 10px;
+    background-size: cover;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    background-color: burlywood;
+    margin: 5px;
+    padding: 10px 5px;
+}
