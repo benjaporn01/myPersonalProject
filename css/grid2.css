@@ -11,6 +11,17 @@ nav{
     margin: 2px;
 }
 
+#grid{
+    display: grid;
+    height: 100px;
+    grid-template: repeat(4, 1fr) / 50px 100px;
+}
+
+#mainpage{
+    background-color: lime;
+    grid-area: 2/2/auto/span3;
+}
+
 a {
     display: inline;
     grid-template-columns: repeat(6,1fr);
@@ -26,4 +37,25 @@ a:hover {
 
 a:visited {
   background-color:brown;
+}
+
+footer {
+    font-size: 1em;
+    line-height: 50px;
+    margin: 5px 5px;
+    padding: 20px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+section {
+    font-size: 2em;
+    background-color: yellowgreen;
+    padding: 10px;
+    width: auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
 }
