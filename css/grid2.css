@@ -35,6 +35,7 @@ footer {
 article{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 article section img{
     width: 400px;
