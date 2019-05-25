@@ -1,24 +1,14 @@
-body{
-    background: #d96457
-}
+/* This file should be in a folder called `css` */
 
-.clock{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Athiti', sans-serif;
-    
-}
-div{
-    position: relative;
-    float: left;
-    background:black;
-    border-radius: 6px;
-    width: 96px;
-    height: 80px;
+.grid-clock {
+    font-family: 'Comfortaa', cursive;
     text-align: center;
-    font-size: 60px;
-    margin: 0px 5px;
+    color: white;
+  }
+  
+  #clock {
+    
+    font-size: 2.5rem;
+    padding: 20px;
+    background-color: red 
 }
